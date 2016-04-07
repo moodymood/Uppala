@@ -1,0 +1,22 @@
+allprojects {
+    apply plugin: 'eclipse'
+    apply plugin: 'java'
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+}
+
+
+
+
+
+sourceSets {
+  main {
+    java {
+      srcDir 'java'
+    }
+    resources {
+      srcDir 'resources'
+    }
+  }
+}
+
